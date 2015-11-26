@@ -1,0 +1,57 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'https://github.com/angular/angular.git',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'https://github.com/angular/angular.git', null ]
+7 verbose cache add name=undefined spec="https://github.com/angular/angular.git" args=["https://github.com/angular/angular.git",null]
+8 verbose parsed url { protocol: 'https:',
+8 verbose parsed url   slashes: true,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: 'github.com',
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: 'github.com',
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '/angular/angular.git',
+8 verbose parsed url   path: '/angular/angular.git',
+8 verbose parsed url   href: 'https://github.com/angular/angular.git' }
+9 silly lockFile 069d177a-s-github-com-angular-angular-git https://github.com/angular/angular.git
+10 verbose lock https://github.com/angular/angular.git C:\Users\jahmad\AppData\Roaming\npm-cache\069d177a-s-github-com-angular-angular-git.lock
+11 verbose addRemoteTarball [ 'https://github.com/angular/angular.git', null ]
+12 info retry fetch attempt 1 at 17:19:54
+13 verbose fetch to= C:\Users\jahmad\AppData\Local\Temp\npm-4908-BQw-A+bQ\github.com\angular\angular.git
+14 http GET https://github.com/angular/angular.git
+15 http 200 https://github.com/angular/angular.git
+16 verbose tar unpack C:\Users\jahmad\AppData\Local\Temp\npm-4908-BQw-A+bQ\github.com\angular\angular.git
+17 silly lockFile f7623f21-b-com-angular-angular-git-unpack tar://C:\Users\jahmad\AppData\Local\Temp\npm-4908-BQw-A+bQ\github.com\angular\angular.git-unpack
+18 verbose lock tar://C:\Users\jahmad\AppData\Local\Temp\npm-4908-BQw-A+bQ\github.com\angular\angular.git-unpack C:\Users\jahmad\AppData\Roaming\npm-cache\f7623f21-b-com-angular-angular-git-unpack.lock
+19 silly lockFile c0976489-Q-github-com-angular-angular-git tar://C:\Users\jahmad\AppData\Local\Temp\npm-4908-BQw-A+bQ\github.com\angular\angular.git
+20 verbose lock tar://C:\Users\jahmad\AppData\Local\Temp\npm-4908-BQw-A+bQ\github.com\angular\angular.git C:\Users\jahmad\AppData\Roaming\npm-cache\c0976489-Q-github-com-angular-angular-git.lock
+21 silly gunzTarPerm modes [ '777', '666' ]
+22 error not a package C:\Users\jahmad\AppData\Local\Temp\npm-4908-BQw-A+bQ\github.com\angular\angular.git
+23 silly lockFile f7623f21-b-com-angular-angular-git-unpack tar://C:\Users\jahmad\AppData\Local\Temp\npm-4908-BQw-A+bQ\github.com\angular\angular.git-unpack
+24 silly lockFile f7623f21-b-com-angular-angular-git-unpack tar://C:\Users\jahmad\AppData\Local\Temp\npm-4908-BQw-A+bQ\github.com\angular\angular.git-unpack
+25 silly lockFile c0976489-Q-github-com-angular-angular-git tar://C:\Users\jahmad\AppData\Local\Temp\npm-4908-BQw-A+bQ\github.com\angular\angular.git
+26 silly lockFile c0976489-Q-github-com-angular-angular-git tar://C:\Users\jahmad\AppData\Local\Temp\npm-4908-BQw-A+bQ\github.com\angular\angular.git
+27 silly lockFile 069d177a-s-github-com-angular-angular-git https://github.com/angular/angular.git
+28 silly lockFile 069d177a-s-github-com-angular-angular-git https://github.com/angular/angular.git
+29 error Error: ENOENT, open 'C:\Users\jahmad\AppData\Local\Temp\npm-4908-BQw-A+bQ\github.com\angular\angular.git-unpack\package.json'
+30 error If you need help, you may report this *entire* log,
+30 error including the npm and node versions, at:
+30 error     <http://github.com/npm/npm/issues>
+31 error System Windows_NT 6.1.7601
+32 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "https://github.com/angular/angular.git" "--save"
+33 error cwd D:\JATO\Test NG
+34 error node -v v0.10.32
+35 error npm -v 1.4.28
+36 error path C:\Users\jahmad\AppData\Local\Temp\npm-4908-BQw-A+bQ\github.com\angular\angular.git-unpack\package.json
+37 error code ENOENT
+38 error errno 34
+39 verbose exit [ 34, true ]
